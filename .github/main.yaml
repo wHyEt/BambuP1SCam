@@ -1,7 +1,7 @@
 name: Workflow for Images
 
 env:
-  DOCKERHUB_TAG: "whyet/BambuP1SCam"
+  DOCKERHUB_TAG: "whyet/bambup1scam"
   DOCKERHUB_SHORT_DESCRIPTION: "Docker Container for Providing the Stream of the Camera from a Bambu P1S 3D Printer"
   DOCKERHUB_README_FILE: "README.md"
 
