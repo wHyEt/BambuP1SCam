@@ -81,7 +81,7 @@ jobs:
         run: |
           docker manifest create \
           ${{ env.DOCKERHUB_TAG }}:latest \
-        #  --amend ${{ env.DOCKERHUB_TAG }}:amd64-latest \
+          --amend ${{ env.DOCKERHUB_TAG }}:amd64-latest \
         #  --amend ${{ env.DOCKERHUB_TAG }}:arm64-latest \
         #  --amend ${{ env.DOCKERHUB_TAG }}:armv7-latest
       - name: Push manifest to Docker Hub
