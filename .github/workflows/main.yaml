@@ -21,12 +21,13 @@ jobs:
           - arch: "amd64"
             platform: "linux/amd64"
             from: "debian:12"
-          - arch: "arm64"
-            platform: "linux/arm64"
-            from: "debian:12"
-          - arch: "armv7"
-            platform: "linux/arm/v7"
-            from: "debian:12"
+  #         for the futture :)
+  #        - arch: "arm64"
+  #          platform: "linux/arm64"
+  #          from: "debian:12"
+  #        - arch: "armv7"
+  #          platform: "linux/arm/v7"
+  #          from: "debian:12"
 
     steps:
       - name: Checkout
