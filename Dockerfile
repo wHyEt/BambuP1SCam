@@ -18,5 +18,5 @@ EXPOSE 1984 1984
 # Set entrypoint
 COPY ./assets/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-#ENTRYPOINT [ "/entrypoint.sh" ]
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+ENTRYPOINT [ "/entrypoint.sh" ]
+#ENTRYPOINT ["tail", "-f", "/dev/null"]
