@@ -1,5 +1,5 @@
 streams:
-   p1s: "exec:./BambuP1Streamer ./libBambuSource.so ${3DPrinter_IP} ${3DPrinter_CODE}"
+   p1s: "exec:./BambuP1SCam ./libBambuSource.so ${3DPrinter_IP} ${3DPrinter_CODE}"
 log:
   level: debug
 api:
