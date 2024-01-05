@@ -51,7 +51,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ env.DOCKERHUB_TAG }}:${{ matrix.arch }}-latest
+          tags: ${{ env.DOCKERHUB_TAG }}-${{ matrix.arch }}:latest
           build-args: CI_FROM=${{ matrix.from }}
           platforms: ${{ matrix.platform }}
 
@@ -81,7 +81,7 @@ jobs:
         run: |
           docker manifest create \
           ${{ env.DOCKERHUB_TAG }}:latest \
-          --amend ${{ env.DOCKERHUB_TAG }}:amd64-latest 
+          --amend ${{ env.DOCKERHUB_TAG }}-amd64:latest 
         #  --amend ${{ env.DOCKERHUB_TAG }}:arm64-latest \
         #  --amend ${{ env.DOCKERHUB_TAG }}:armv7-latest 
       - name: Push manifest to Docker Hub
