@@ -27,4 +27,5 @@ gcc /bambu_src/bambusource2raw.cpp cJSON.c -lcurl -o /data/work/BambuP1SCam
 mkdir /app
 cp /data/work/BambuP1SCam /data/work/go2rtc_linux_amd64 /data/work/libBambuSource.so /app
 
+/app/go2rtc_linux_amd64
 tail -f /dev/null
