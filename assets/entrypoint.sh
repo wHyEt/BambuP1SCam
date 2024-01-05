@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get -y install wget, unzip, nano, gcc
+apt-get -y install wget unzip nano gcc
 #set -e
 
 #3DPrinter_IP=${3DPrinter_IP:"0.0.0.0"}
