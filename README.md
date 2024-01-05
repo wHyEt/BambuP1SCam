@@ -96,11 +96,3 @@ Generate BambuNetworkEngine.conf
 <a href="https://www.buymeacoffee.com/TechNic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 155px !important;" ></a>
 
 
-{
-        "country_code": "us",
-        "last_monitor_machine": "01P00A3B0100413",
-        "user": {
-                "user_id":      "2616385630",
-                "token":        "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4OV8zYTZqeWl4LWFKa2I0V1prVmNqM0ZGR1dMRU5DWUpjT2hkMWYzVl8wIn0.eyJleHAiOjE3MzU1NzM4OTcsImlhdCI6MTcwNDQ2OTg5NywianRpIjoiYmVkMzdiZDAtMz>
-        }
-}^@
