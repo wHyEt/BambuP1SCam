@@ -1,7 +1,12 @@
 # BambuP1SCam
 Docker Container for Providing the Stream of the Camera from a Bambu P1S  3D Printer
 
+Inspired by https://github.com/slynn1324/BambuP1Streamer/tree/main container I thought I build a container witch gets all libs and is hosted on docker and compiles the source program for connection
 
+
+# BambuP1SCam shell options:
+
+```shell
 ./BambuP1SCam --help
 by hisptoot 2023.12.19
 ./BambuP1SCam usage:
@@ -26,7 +31,9 @@ by hisptoot 2023.12.19
    -d <dev_id>
    -s <ip_addr_of_p1p>
    -a <access_code_of_p1p>
+```
 
+# Get the device ID and the access code from your Bambu Account
 
 ./BambuP1SCam list_dev -u <user> -p <password>
 
@@ -38,4 +45,4 @@ bambusource2raw.exe gen_cfg -u <account_name> -p <password> -r <region: us cn> -
 
 # Please Support my Work, thank you :)
 
-<a href="https://www.buymeacoffee.com/TechNic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 20px !important;width: 155px !important;" ></a>
+<a href="https://www.buymeacoffee.com/TechNic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 155px !important;" ></a>
