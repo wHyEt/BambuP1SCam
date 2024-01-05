@@ -19,6 +19,7 @@ cd /bambu_src
 
 wget https://raw.githubusercontent.com/hisptoot/BambuSource2Raw/main/BambuSource2Raw/bambusource2raw.cpp
 wget https://raw.githubusercontent.com/hisptoot/BambuSource2Raw/main/BambuSource2Raw/BambuTunnel.h
+wget https://raw.githubusercontent.com/DaveGamble/cJSON/master/cJSON.h
 
 gcc /bambu_src/bambusource2raw.cpp -o /data/work/build/BambuP1SCam
 
