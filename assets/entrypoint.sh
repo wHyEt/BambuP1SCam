@@ -17,9 +17,9 @@ chmod a+x go2rtc_linux_amd64
 mkdir /bambu_src
 cd /bambu_src
 
-wget https://github.com/hisptoot/BambuSource2Raw/blob/main/BambuSource2Raw/bambusource2raw.cpp
-wget https://github.com/hisptoot/BambuSource2Raw/blob/main/BambuSource2Raw/BambuTunnel.h
+wget https://raw.githubusercontent.com/hisptoot/BambuSource2Raw/main/BambuSource2Raw/bambusource2raw.cpp
+wget https://raw.githubusercontent.com/hisptoot/BambuSource2Raw/main/BambuSource2Raw/BambuTunnel.h
 
-gcc /bambu_src/bambusource2raw.cpp -o /work/build/BambuP1SCam
+gcc /bambu_src/bambusource2raw.cpp -o /data/work/build/BambuP1SCam
 
 tail -f /dev/null
