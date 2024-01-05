@@ -22,6 +22,6 @@ wget https://raw.githubusercontent.com/hisptoot/BambuSource2Raw/main/BambuSource
 wget https://raw.githubusercontent.com/DaveGamble/cJSON/master/cJSON.c
 wget https://raw.githubusercontent.com/DaveGamble/cJSON/master/cJSON.h
 
-gcc /bambu_src/bambusource2raw.cpp cJSON/cJSON.c -lcurl -o /data/work/build/BambuP1SCam
+gcc /bambu_src/bambusource2raw.cpp cJSON.c -lcurl -o /data/work/BambuP1SCam
 
 tail -f /dev/null
