@@ -10,7 +10,7 @@ RUN echo "Set FROM to $CI_FROM"
 ARG TARGETPLATFORM
 RUN echo "Building for ARCH $TARGETPLATFORM"
 
-RUN apt-get update && apt-get install -y nano wget unzip gcc g++
+RUN apt-get update && apt-get install -y nano wget unzip gcc g++ libcurl4-openssl-dev libcjson-dev
 
 WORKDIR /data
 EXPOSE 1984 1984
