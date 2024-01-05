@@ -1,6 +1,8 @@
 # Arch will be changed while building from GitHub Actions CI Workflow
 # debian:12
 
+#ENV 3DPrinter_IP
+#ENV 3DPrinter_CODE
 
 ARG CI_FROM=null
 FROM ${CI_FROM}
@@ -18,6 +20,7 @@ EXPOSE 1984 1984
 
 # Set entrypoint
 COPY ./assets/entrypoint.sh /entrypoint.sh
+COPY ./assets/go2rtc.yaml /app/go2rtc.yaml
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 #ENTRYPOINT ["tail", "-f", "/dev/null"]
