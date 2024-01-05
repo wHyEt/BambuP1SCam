@@ -39,7 +39,7 @@ by hisptoot 2023.12.19
 
 Generate BambuNetworkEngine.conf
 
-bambusource2raw.exe gen_cfg -u <account_name> -p <password> -r <region: us cn> -d <dev_id>
+./BambuP1SCam gen_cfg -u <account_name> -p <password> -r <region: us cn> -d <dev_id>
 
 # Just starting to BUild this container is still work in progress
 
